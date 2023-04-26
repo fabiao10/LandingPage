@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <div class="big-wrapper light">
+      <img src="./img/shape.png" alt="" class="shape" />
+
+      <header>
+        <div class="container">
+          <div class="logo">
+            <img src="./img/logo.png" alt="Logo" />
+            <h3>Landing Page</h3>
+          </div>
+
+          <div class="links">
+            <ul>
+              <li><a href="#">Sobre mim</a></li>
+              <li><a href="#">Hobbies</a></li>
+              <li><a href="#">Interesses</a></li>
+              <li><a href="#">Redes Sociais</a></li>
+              <li><a href="#" class="btn">Contata me</a></li>
+            </ul>
+          </div>
+
+          <div class="overlay"></div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </header>
+
+      <div class="showcase-area">
+        <div class="container">
+          <div class="left">
+            <div class="big-title">
+              <h1>Bem-vindo</h1>
+              <h1>á minha landing page</h1>
+            </div>
+            <p class="text">
+              <strong>"Things aren´t always #000000<br>
+                and #FFFFFF"</strong>
+            </p>
+            <div class="cta">
+              <a href="#sec_sobre_mim" class="btn">Começa aqui</a>
+            </div>
+          </div>
+
+          <div class="right">
+            <img src="./img/person_1.png" alt="Person Image" class="person" />
+          </div>
+
+          <section id="sec_sobre_mim">
+            <h2>Sobre mim</h2>
+            <p> Um jovem rapaz, que procura continuar num caminho de aprendizagem, esperando ultrapassar os obstáculos
+              que surjam,
+              resolvendo os desafios on step-by-step.
+            </p>
+          </section>
+
+          <p></p>
+          <section id="sec_hobbies">
+            <h2>Hobbies</h2>
+            <p> Todas as atividades que possam despertar os nossos estimulos sensoriais, desde Visão, Paladar, Olfato,
+              Tato, Audição, são
+              essenciais para que possamos apurar os nossos sentidos, e por isso a culinária é algo que entra no meu
+              leque de hobbies favoritos, cozinhar, provar,
+              testar...tudo experiencias que provocam reações incríveis, ao longo do processo e sobretudo no fim ao ver
+              o produto final.
+            </p>
+          </section>
+
+          <section id="sec_interesses">
+            <h2>Interesses</h2>
+            <p>
+              A tecnologia é algo verdadeiramente fascinante, e a possibilidade
+              de criar programas de computador usando uma linguagem de programação para
+              instruir o computador a executar determinadas tarefas ou solucionar problemas específicos, é realmente
+              interessante.
+              Com vista a esse intituito algumas das linguagens que ja experimentei e tive uma boa experiência entre
+              elas:
+            <ul style="list-style: none;  display: grid; 
+            grid-auto-flow: column;">
+              <li>
+                <img class="fa-brands fa-java" src="./img/java.svg" alt="Java" style="height: 39px;  width: 39px;">
+                <figcaption style="font-size: small; color: #000000;">Java</figcaption>
+              </li>
+              <li>
+                <img class="fa-solid fa-c" src="./img/c-solid.svg" alt="Java" style="height: 39px;  width: 39px;">
+                <figcaption style="font-size: small; color: #000000;">C</figcaption>
+              </li>
+              <li>
+                <img class="fa-brands fa-java" src="./img/sql-svgrepo-com.svg" alt="Java"
+                  style="height: 39px;  width: 39px;">
+                <figcaption style="font-size: small; color: #000000;">SQL</figcaption>
+              </li>
+            </ul>
+            </p>
+          </section>
+
+          <section class="showcase-area" id="sec_contata_me">
+            <h2>Contata me</h2>
+
+            <form class="container">
+              <div>
+                <label>Email</label>
+                <input type="email" id="exampleInputEmail1">
+              </div>
+              <div>
+                <label>Mensagem</label>
+                <textarea id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div>
+                <button type="submit" class="btn">Submeter</button>
+              </div>
+            </form>
+          </section>
+
+
+          <section id="sec_redes_sociais">
+            <h2>Redes Sociais</h2>
+            <p>Segue me</p><br>
+            <p>
+              <a href="https://www.linkedin.com/in/fabiorsousa" target="_blank" style="flex-direction: row;">
+                <img class="fa-brands fa-linkedin" src="./img/linkedin.svg" alt="Linkedin"
+                  style="height: 39px;  width: 39px;">
+              </a>
+
+              <a href="https://www.github.com/fabiao10/LandingPage" target="_blank" style="flex-direction: row;">
+                <img class="fa-brands fa-square-github" src="./img/square-github.svg" alt="Linkedin"
+                  style="height: 39px;  width: 39px;">
+              </a>
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <!-- JavaScript Files -->
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</body>
+
+</html>
